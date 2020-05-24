@@ -1,21 +1,15 @@
-/*
-  Скетч к проекту "Классический pong на oled дисплее"
-  Страница проекта (схемы, описания): https://alexgyver.ru/microPong/
-  Исходники на GitHub: https://github.com/AlexGyver/microPong/
-  Нравится, как написан код? Поддержи автора! https://alexgyver.ru/support_alex/
-  Автор: AlexGyver Technologies, 2019
-  https://AlexGyver.ru/
-*/
 
-#define GAME_SPEED 100    // стандартный период движения шарика
-#define II_SPEED 250      // стандартный период движения противника
-#define RANDOM_BOUNCE 1   // отбивать шарик в случайном направлении
 
-// пины
+#define GAME_SPEED 100    // стандартний період руху кульки
+#define II_SPEED 250      // стандартний період руху суперника
+#define RANDOM_BOUNCE 1   // відбивати кульку у випадковому напрямку
+
+
+// піни
 #define BTN_UP 3
 #define BTN_DWN 4
 
-// другие настройки
+// інші налаштування
 #define X_PLAYER_1 7
 #define X_PLAYER_2 55
 #define RACKET_LEN 5
